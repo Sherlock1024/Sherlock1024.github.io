@@ -22,9 +22,23 @@
     <div class="collapse navbar-collapse" id = "target-menu">
         <ul class="nav navbar-nav">
             <li class="active"><a href="#"><i class="glyphicon glyphicon-home icon-white"></i> Home</a></li>
-            <li><a href="#"><i class="glyphicon glyphicon-book icon-white"></i> Blog</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="glyphicon glyphicon-book icon-white"></i> Blogs
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                    <li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-book icon-white"></i> Python</a></li>
+                    <li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-book icon-white"></i> HTML</a></li>
+                    <li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-book icon-white"></i> JavaScript</a></li>
+                </ul>
+            </li>
             <li><a href="about.html"><i class="glyphicon glyphicon-user icon-white"></i> About Me</a></li>
-            <li><a href="mailto:holmes1024@outlook.com"><i class="glyphicon glyphicon-envelope icon-white"></i> Contact Me</a></li>
+            <li>
+                <a href="mailto:holmes1024@outlook.com">
+                    <i class="glyphicon glyphicon-envelope icon-white"></i> Contact Me
+                </a>
+            </li>
             <li><a href="http://glyphicons.com/"><i class="glyphicon glyphicon-link"></i> Thanks for Glyphicons</a></li>
         </ul>
     </div>
